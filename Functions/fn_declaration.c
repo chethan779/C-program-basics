@@ -9,13 +9,6 @@ int main(){
     {
        greet();
     }
-    printf("Enter value of x\n");
-    scanf("%d",&x);
-    
-    printf("Enter value of b\n");
-    scanf("%d",&y);
-
-    printf("The sum of x and y is %d\n",sum(x,y));
     
     return 0;
 }
