@@ -3,7 +3,7 @@ void greet();
 int sum(int a,int b);
 int main(){
     int n,x,y;
-    printf("How manny times u need grretings\n");
+    printf("How many times u need greetings\n");
     scanf("%d",&n);
     for (int i = 0; i < n; i++)
     {
