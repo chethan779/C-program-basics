@@ -13,7 +13,7 @@ int main(){
     
      MALLOC(10*SIZEOF(INT))*/
      int n ; scanf("%d",&n);
-     int * x=(int *)malloc(20);
+     int * x=(int *)malloc(n*sizeof(int));
 
     int * y=(int *)calloc(n,sizeof(int)); // calloc initializes the memory to 0
 
