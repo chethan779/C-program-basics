@@ -53,7 +53,6 @@ int main()
 		{
 			diagonal_sum+=matrix[i][i];
 			sec_diagonal_sum+=matrix[i][2-i];
-			
 		}
 	printf("\n");
 

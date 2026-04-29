@@ -17,8 +17,7 @@ struct students
     int total;
 };
 
-int main()
-{
+int main(){
     int n, top_student_index = -1;
     int pass = 0, fail = 0, not_eligible = 0;
     float highest_avg = 0;
