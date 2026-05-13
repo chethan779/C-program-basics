@@ -7,7 +7,6 @@ int main(){
     {
         printf(" %c\n", str[i]);
         count+=1;
-
     }
     printf("The length of str is: %d\n",count);
 

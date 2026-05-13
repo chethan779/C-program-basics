@@ -11,6 +11,5 @@ int main(){
     printf("The address of p is : %p\n", p);
     printf("The address of p is : %p\n", ptr);
 
-
     return 0;
 }

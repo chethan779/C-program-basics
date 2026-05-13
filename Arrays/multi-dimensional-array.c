@@ -15,7 +15,6 @@ int main(){
         {
             transpose[i][j]=matrix[j][i];
         }
-        
     }
 
     
@@ -25,11 +24,7 @@ int main(){
         {
            printf("The values at [%d][%d] is : %d\n",i,j,transpose[i][j]);
         }
-        
     }
-
-
-
     
     return 0;
 }
